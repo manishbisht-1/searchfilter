@@ -10,7 +10,7 @@ function App() {
   return (
     
     <div className='App'>
-<input type="text" placeholder='Search..' onChange={event=>{
+<input type="text" placeholder='Search...' onChange={event=>{
   setSearchTerm(event.target.value);
 }}/>
 {JSONDATA.filter((val)=>{
